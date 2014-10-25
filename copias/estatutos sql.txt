@@ -1,0 +1,17 @@
+CREATE TABLE `gestor`.`relacionar` (
+`id` INT( 9 ) NOT NULL AUTO_INCREMENT PRIMARY KEY ,
+`reactivo` TEXT NOT NULL ,
+`respuesta` TEXT NOT NULL ,
+`tema` VARCHAR( 30 ) NOT NULL
+) ENGINE = InnoDB;
+
+
+INSERT INTO `gestor`.`relacionar` (
+`id` ,
+`reactivo` ,
+`respuesta` ,
+`tema`
+)
+VALUES (
+NULL , 'Prueba 1', 'Prueba 1', 'Tema de prueba'
+);

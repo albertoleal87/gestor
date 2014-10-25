@@ -1,0 +1,15 @@
+/* Stylesheet sólo para imprimir */
+
+#menu { display:none}
+
+#botones { display:none}
+
+#encabezado { display:none}
+
+#div5 { display:none}
+
+#nodisplay { display:none}
+
+#div1, #div2, #div3, #div4, #div5 , #encabezado, #idexamen  {padding:10px; overflow:auto; border:none}
+
+#logo2 {display:none}

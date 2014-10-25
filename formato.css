@@ -1,0 +1,49 @@
+@charset "utf-8";
+/* CSS Document */
+
+* {padding:0 ; margin:0 ; }
+
+body {width:800px ; margin-left:auto; margin-right:auto; font-size:small; font-family:Arial, Helvetica, sans-serif; font-style:italic; background-image:url(imagenes/detras.svg) ; background-size:100% 100%; background-attachment:fixed }
+
+#red input { color:#F00;}
+
+#encabezado {  background-color:#FFF ; border-color:#000 ; height:auto ;-moz-border-radius:10px 10px 0 0 ; -webkit-border-radius:10px 10px 0 0;  }
+
+#logo2 {background-image:url(imagenes/logo.png); background-repeat:no-repeat; height:80px;}
+
+#menu {border:1px solid #333; height: auto  ; background-color:#FFF  }
+#menu ul li {list-style:none; display:inline  ; }
+#menu input {font-size:16px; padding:2px} 
+
+#botones {border:1px solid #333; height: auto  ; background-color:#FFF  }
+#botones ul li {list-style:none; display:inline  ; }
+#botones input {font-size:16px; padding:2px} 
+
+#idexamen input { background-color:#eeeeee; border:#eeeeee}
+#div2 td { padding:2px}
+#div3 input {font-size:12px; } 
+
+#div3 ol li {display:inline;}
+
+#div5 input { font-size:16px; padding:3px;} 
+
+#cuerpo {; height: auto ;    background-color:#FFF ;}
+º
+
+
+h2 ,h3 {text-align:center}
+
+#inputs input{width:350px;   }
+
+#div1, #div2, #div3, #div4, #div5 , #encabezado, #idexamen {padding:5px; overflow:auto; border:solid 2px #000 ; -moz-border-radius:5px ; -webkit-border-radius:5px}
+
+input{ font-size:13px}
+
+#nodisplay {color:#F00}
+
+h1 , h2{ text-align:center}
+  
+#relacionarcol input {width:320px;}
+
+#relacionarcol2 { margin:0 20px 0 20px; margin:0 20px 0 20px; font-size:16px}
+  
